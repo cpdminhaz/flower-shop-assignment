@@ -23,7 +23,7 @@ background: #E55473;padding: 10px 20px; color: white;border: 0;
     height: 215px;width: 450px;display: block;padding-top: 90px;padding-left:70px;
 }
 
-/* Featured flower */
+/* Featured flower styles */
 
 .featured-texts {
         height: 100px; width: 600px; text-align: center;margin-top: -50px;
@@ -39,4 +39,21 @@ background: #E55473;padding: 10px 20px; color: white;border: 0;
 }
 .featured-images a {
     color: black;display: flex;justify-content: center;padding-top: 30px;
+}
+
+/* Exclusive services styles */
+.exclusive-services { height: 200px; width: 80%;border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);margin: 0 auto;margin-top: 140px;display: flex;justify-content:space-evenly;
+
+}
+.excl-service {
+    height: 200px; width: 25%; display: flex;align-items: center;justify-content: center;
+}
+
+.excl-service img {
+    height: 44px;width: 44px;
+}
+
+.excl-service p {
+    text-align: center;font-size: 14px; margin-top:15px;
 }
