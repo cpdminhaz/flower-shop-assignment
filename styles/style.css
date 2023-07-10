@@ -1,6 +1,10 @@
 * {
     font-family: 'Arvo', serif;margin: 0;padding: 0;
 }
+.btn {
+    border-radius: 8px;
+background: #E55473;padding: 10px 20px; color: white;
+}
 
 /* These are header section styles */
 .header {
@@ -9,4 +13,12 @@
 
 .socials {
     padding-left: 50px;height: 30px;
+}
+
+/* Tagline and more styles */
+.tagline-and-more {
+    height: 430px;display: flex;background-color: rgba(229, 84, 115, 0.10);justify-content: space-evenly;align-items: center;
+}
+.tagline {
+    height: 215px;width: 450px;
 }
