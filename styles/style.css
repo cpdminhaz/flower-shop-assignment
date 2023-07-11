@@ -134,24 +134,56 @@
     align-items: center;
 
 }
+
 .hot-deal-x {
-    height: 350px;width: 30%;
+    height: 350px;
+    width: 30%;
 }
 
 /* More flowers photos styles */
 .more-flowers {
-    height: 270px;width: 80%; margin: 0 auto;margin-top: 50px;display: flex;flex-direction: row;justify-content: space-between;
+    height: 270px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .more-flowers-x {
-    height: 270px; width: 20%;
+    height: 270px;
+    width: 20%;
 }
 
 .more-flowers img {
-    height: 300px;width: 250px;
+    height: 300px;
+    width: 250px;
 }
 
 /* Subscription section style */
-/* .subscription {
-    background-image:url('../assets/Rectangle\ 9.png');height: 250px; width: 80%;margin: 0 auto; margin-top: 150px;
-} */
+.subscription {
+    background-image: url('../assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 350px;
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
