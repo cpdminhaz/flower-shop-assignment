@@ -166,17 +166,19 @@
     background-image: url('../assets/Rectangle\ 9.png');
     background-repeat: no-repeat;
     border-radius: 5px;
-    background-size: cover;
-    height: 250px;
-    width: 80%;
+    background-size: contain;
+    height: 350px;
+    width: 87.3%;
     margin: 0 auto;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-position-x: 46px;
 }
 
+/* footer styles */
 .footer {
     height: 350px;
     background-color: black;
